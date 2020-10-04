@@ -20,5 +20,5 @@ interface CovidInterface {
 
     //@Path berfungsiuntuk mengubah nilai variabel menjadi nama negara yang diinputkan
     @GET("dayone/country/{country_name}")
-    suspend fun getCountryData(@Path("county_name") country_name : String) : Response<List<ResponseCountry>>
+    suspend fun getCountryData(@Path("country_name") country_name : String) : Response<List<ResponseCountry>>
 }
