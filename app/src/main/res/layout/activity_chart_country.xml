@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:layout_margin="@dimen/dp8"
         android:layout_weight="1"
-        android:background="@android:color/darker_gray"
+        android:background="@drawable/bgr_card"
         android:orientation="vertical"
         android:padding="@dimen/dp8">
 
@@ -29,8 +29,8 @@
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/dp8"
                 android:layout_weight="1"
-                android:src="@drawable/ic_launcher_background"
-                tools:ignore="NestedWeights" />
+                tools:ignore="NestedWeights"
+                tools:srcCompat="@tools:sample/avatars" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -52,11 +52,12 @@
                         android:layout_height="wrap_content"
                         android:text="Country Name"
                         android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/sp20"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:layout_marginTop="3dp"
                         android:id="@+id/txt_current"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -85,7 +86,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/dp8"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/orange"
+                app:cardBackgroundColor="#FFA726"
                 app:cardCornerRadius="@dimen/dp8"
                 app:cardElevation="@dimen/dp4">
 
@@ -170,7 +171,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/dp8"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/yellow"
+                app:cardBackgroundColor="#EF5350"
                 app:cardCornerRadius="@dimen/dp8"
                 app:cardElevation="@dimen/dp4">
 
@@ -185,7 +186,7 @@
                         android:layout_height="wrap_content"
                         android:text="Total Deaths"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="#ffff"
                         android:textSize="@dimen/sp12"
                         android:textStyle="bold" />
 
@@ -195,7 +196,7 @@
                         android:layout_height="wrap_content"
                         android:text="CURRENTLY"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="#ffff"
                         android:textSize="@dimen/sp20"
                         android:textStyle="bold" />
 
@@ -208,7 +209,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/dp8"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/lime"
+                app:cardBackgroundColor="#EC302D"
                 app:cardCornerRadius="@dimen/dp8"
                 app:cardElevation="@dimen/dp4">
 
@@ -223,7 +224,7 @@
                         android:layout_height="wrap_content"
                         android:text="New Deaths"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="#ffff"
                         android:textSize="@dimen/sp12"
                         android:textStyle="bold" />
 
@@ -233,7 +234,7 @@
                         android:layout_height="wrap_content"
                         android:text="CURRENTLY"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="#ffff"
                         android:textSize="@dimen/sp20"
                         android:textStyle="bold" />
 
@@ -256,7 +257,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/dp8"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/tosca"
+                app:cardBackgroundColor="#9CCC65"
                 app:cardCornerRadius="@dimen/dp8"
                 app:cardElevation="@dimen/dp4">
 
@@ -271,7 +272,7 @@
                         android:layout_height="wrap_content"
                         android:text="Total Recovered"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="#ffff"
                         android:textSize="@dimen/sp12"
                         android:textStyle="bold" />
 
@@ -293,7 +294,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/dp8"
                 android:layout_weight="1"
-                app:cardBackgroundColor="@color/light_tosca"
+                app:cardBackgroundColor="#9CE646"
                 app:cardCornerRadius="@dimen/dp8"
                 app:cardElevation="@dimen/dp4">
 
@@ -308,7 +309,7 @@
                         android:layout_height="wrap_content"
                         android:text="New Recovered"
                         android:textAlignment="center"
-                        android:textColor="@color/red"
+                        android:textColor="#ffff"
                         android:textSize="@dimen/sp12"
                         android:textStyle="bold" />
 
